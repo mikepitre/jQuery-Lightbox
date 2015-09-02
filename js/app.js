@@ -15,3 +15,7 @@ $('#imageGallery a').click(function(event) {
 
   $overlay.show();
 });
+
+$overlay.click(function(){
+  $overlay.hide();
+});
